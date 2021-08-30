@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Odibee+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa';
+  text-decoration: none;
+}
+
+#fistashka {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 48.9%;
+  bottom: 5.3vh;
+}
+
+#papa {
+  position: absolute;
+  right: 10px;
+  bottom: 3vh;
+  font-size: 12px;
+  color: white
+}
+
+#papa:hover {
+  font-size: 14px;
+  color: #54e371;
+}
+
+#name {
+  position: absolute;
+  right: 46.9%;
+  bottom: 2vh;
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+ }
+
+#name:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #54e371;
+  color: #54e371;
+}
+
+#sp1 {
+  color: white;
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  font-size: 12px
+}
+
+#sp1:hover {
+  color: #54e371;
+  font-size: 14px;
+}
+
+#helper{
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  font-size: 12px
+}
+
+#helper:hover {
+  color: #54e371;
+  font-size: 14px;
+}
+
+#header {
+  width: 100%;
+  height: 11.6vh;
+  background: black;
+  border-bottom: 4px solid silver;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+}
+
+#footer {
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+  border-top: 4px solid silver;
+  background: black;
+  color: white;
+  line-height: 15vh;
+  float: left;
+  margin-top: 2vh;
+
+  bottom: 0px;
+  left: 0px
+}
+
+#main {
+  width: 69%;
+  text-align: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1vh;
+  border: 1px solid #54e371;
+  border-top: 3px solid #54e371;
+  margin-top: 13vh;
+  float: left;
+  height: 67vh;
+  border-radius: 10px;
+
+}
+
+#aside {
+
+  width: 20%;
+  text-align: left;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  margin-bottom: 1vh;
+  border: 1px solid #54e371;
+  border-top: 3px solid #54e371;
+  float: left;
+  margin-top: 13vh;
+  height: 67vh;
+  border-radius: 10px;
+  right: 2.5%
+}
+
+body {background-color: #101010 ; color: white; overflow-x: auto; height: 2000px}
+
+.menu{
+  display: flex;
+  margin-top: 3px
+}
+
+.menu li{
+  width: 100%;
+  list-style: none;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #54e371;
+  overflow:visible;
+  font-size: 14px
+}
+
+.menu li:hover {
+
+  background: silver;
+
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+
+.menu a:hover {
+  background: #red;
+}
+
+.menu ul {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
+
+.menu ul ul {
+  display: none;
+  top: 0;
+  left: 100%;
+}
+
+* {
+box-sizing: border-box;
+max-width: 100%;
+}

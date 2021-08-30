@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Odibee+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa';
+  text-decoration: none;
+}
+
+#fistashka {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 48.9%;
+  bottom: 5.3vh;
+}
+
+#stepbacker {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.stb:hover {
+  text-decoration: underline;
+  text-decoration-color: grey
+}
+
+.stb {
+  color: grey;
+  font-size: 12px
+}
+
+#name {
+  position: absolute;
+  right: 46.9%;
+  bottom: 2vh;
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+ }
+
+#name:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #54e371;
+  color: #54e371;
+}
+
+#sp1 {
+  color: white;
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  font-size: 12px
+}
+
+#sp1:hover {
+  color: #54e371;
+  font-size: 14px;
+}
+
+#helper{
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  font-size: 12px
+}
+
+#helper:hover {
+  color: #54e371;
+  font-size: 14px;
+}
+
+#header {
+  width: 100%;
+  height: 11vh;
+  background: black;
+  border-bottom: 4px solid silver;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+}
+
+#footer {
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+  border-top: 4px solid silver;
+  background: black;
+  color: white;
+  line-height: 15vh;
+  float: left;
+  margin-top: 2vh;
+
+  bottom: 0px;
+  left: 0px
+}
+
+#main {
+  width: 94.8%;
+  text-align: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1vh;
+  border: 1px solid #54e371;
+  border-top: 3px solid #54e371;
+  margin-top: 13vh;
+  float: left;
+  height: 67vh;
+  border-radius: 10px;
+  background-color: #101010;
+  color: white
+}
+
+#ure {
+  display: block;
+  margin-top: 20px;
+  font-size: 22px
+}
+
+
+body {background-color: #101010 ; color: white; overflow-x: auto; height: 100vh}
+
+
+.vva {
+  position:relative;
+  background-color:black;
+  border:2px solid silver;
+  height:30px;
+  width:150px;
+  bottom: 5px;
+  color: white;
+  border-radius: 9px;
+  margin-right: 15px;
+  text-align: center;
+}
+.vvb {
+  position:relative;
+  background-color:black;
+  border:2px solid silver;
+  height:30px;
+  width:150px;
+  bottom: 5px;
+  color: white;
+  border-radius: 9px;
+  margin-right: 15px;
+  text-align: center;
+}
+.vvc{
+  position:relative;
+  background-color:black;
+  border:2px solid silver;
+  height: 30px;
+  width: 150px;
+  bottom: 5px;
+  color: white;
+  border-radius: 9px;
+  text-align: center;
+}
+b {
+  font-size: 2em;
+}
+button {
+    width: 20%;
+    background-color:black;
+    border:2px solid silver;
+    border-radius: 9px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+button:hover {
+  color: #54e371
+}
+
+.vv1 {
+  color:#54e371;
+  padding: 20px 10px 10px 15px;
+  border: 2px solid white;
+  min-height: 200px;
+  max-height: 700px;
+  background-color: black;
+  width:90%;
+  overflow: auto;
+  line-height: 30px;
+  border-radius: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+  right: 13px
+}
+#demo {
+  font-weight:800;
+  font-size: 1.3em;
+}
+
+#vkpng {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  margin-right: 3px
+}
+
+#autor {
+  color: Grey;
+  font-size: 12px
+}
